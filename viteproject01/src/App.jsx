@@ -1,7 +1,15 @@
+
+import Bro from "./Bro"
+
 function App() {
 
   return (
-    <h1>React with Vite</h1>
+    <>
+      <Bro />
+      <br></br>
+      <h1>let's see what happens</h1>
+      <span>hello</span>
+    </>
   )
 }
 

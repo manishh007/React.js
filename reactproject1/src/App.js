@@ -1,6 +1,12 @@
+
+import Human from "./Human"
+
 function App() {
   return (
-    <h1> React Project</h1>
+    <>
+      <Human />
+      <h1>hello react</h1>
+    </>
   );
 }
 
