@@ -1,0 +1,27 @@
+why React:
+it is used when we want to upadate as many objects and varialble on the website in one click.
+
+babel:it is a transpiler which convert a modern js code to old js code like ES6+ versions
+
+Hooks:
+allows us to use function made in react without using class components in js
+they are like functions or methods in the react library which we can use directly by import from the library.
+1. useState it takes value from the declared variables like:
+let [var_name, function that upadate value]
+  let [count, setcount] = useState(1)
+
+it search the variable in the DOM and instantly upadate all the variables on the webpage 
+but js is not able to do so we have to update each by append new value to the DOM
+that's why hooks are useful...
+
+
+
+fiber:
+in react fiber are method or function which is used to update the end result with update in parts to avoid animation 
+drop in react. used to pause about or reuse the previous work as new updates come. it also priortise the updates.
+
+reconciliation:(Virtual DOM)
+algo use to differentiate two trees ((browser)DOM tree and react(createroot) tree) in which tree we have to make the 
+update.
+
+
