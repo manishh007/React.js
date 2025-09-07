@@ -14,6 +14,9 @@ it search the variable in the DOM and instantly upadate all the variables on the
 but js is not able to do so we have to update each by append new value to the DOM
 that's why hooks are useful...
 
+2.useCallback:
+
+
 
 
 fiber:
@@ -23,5 +26,13 @@ drop in react. used to pause about or reuse the previous work as new updates com
 reconciliation:(Virtual DOM)
 algo use to differentiate two trees ((browser)DOM tree and react(createroot) tree) in which tree we have to make the 
 update.
+
+
+props:
+
+
+
+
+
 
 
